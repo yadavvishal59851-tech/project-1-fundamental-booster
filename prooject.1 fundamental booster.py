@@ -12,10 +12,11 @@ print("age: ",(age),type(age),id(age))
 print("height: ",(height),type(height),id(height))
 print("number: ",(number),type(number),id(number))
 
-birthyear = 2025 - age
-print(f"your birthyear is approximately: {birthyear}")
+birthyear = 2025 -int( age)
+print(f"your birthyear is approximately:" {birthyear})
 
 
 print("Thank you for using the personal Data Collector." )
 print("wish you best of luck and good bye")
+
 
